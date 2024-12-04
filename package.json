@@ -1,0 +1,25 @@
+{
+  "name": "mercadinho-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "eslint": "^8.57.1",
+    "prisma": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "express": "^4.21.1"
+  }
+}
